@@ -13,22 +13,18 @@ body{
 /* utility */
 .container{
     max-width: 1200px;
+    margin: auto;
 }
 .btn{
-    text-decoration: none;
-    
+    text-decoration: none;  
     padding: 8px 20px;
 }
 .btn-blue{
     background-color: #0061ff;
     color: white;
-   
-
 }
 .btn-white{
     
-    
-
 }
 .clearfix::after{
     display: table;
@@ -37,11 +33,14 @@ body{
 }
 .float-left{
     float: left;
-    line-height: 80px;
+    /* line-height: 80px; */
 
 }
 .w-20 {
     width: 20%;
+}
+.w-30 {
+    width: 30%;
 }
 .w-50 {
     width: 50%;
@@ -52,12 +51,17 @@ body{
 .w-60 {
     width: 60%;
 }
+.w-70 {
+    width: 70%;
+}
 .aline-text-left{
     text-align: left;
 }
-
 .aline-text-right{
     text-align: right;
+}
+.line-height{
+    line-height: 80px;
 }
 
 
@@ -70,4 +74,29 @@ body{
 /* nav */
 nav{
     margin: 0 20px;
+}
+.logo{
+    vertical-align: middle;
+}
+
+/* main  */
+
+
+.frontpage.color{
+    background-color: #b4d0e7;
+    width: 100%;
+    height: 650px;
+}
+.main-frontpage .col-dx img{
+    width: 100%;
+}
+.btn-frontpage{
+    line-height: 65px;
+}
+.title-frontpage{
+    font-size:70px;
+    font-weight: 800;
+}
+.frontpage .container{
+    padding-top: 50px;
 }
