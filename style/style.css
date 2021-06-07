@@ -5,35 +5,69 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body{
+    text-align: center;
 
+}
 
 /* utility */
 .container{
     max-width: 1200px;
 }
 .btn{
-
+    text-decoration: none;
+    
+    padding: 8px 20px;
 }
 .btn-blue{
+    background-color: #0061ff;
+    color: white;
+   
 
 }
 .btn-white{
+    
+    
 
 }
 .clearfix::after{
     display: table;
     content: "";
     clear: both;
-
-
 }
 .float-left{
     float: left;
+    line-height: 80px;
 
 }
+.w-20 {
+    width: 20%;
+}
+.w-50 {
+    width: 50%;
+}
+.w-40 {
+    width: 40%;
+}
+.w-60 {
+    width: 60%;
+}
+.aline-text-left{
+    text-align: left;
+}
 
+.aline-text-right{
+    text-align: right;
+}
 
 
 
 
 /* ------- */
+
+
+
+/* nav */
+nav{
+    margin: 0 20px;
+}
