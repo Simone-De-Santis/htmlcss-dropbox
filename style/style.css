@@ -81,6 +81,25 @@ li{
 h2{
     margin-bottom: 30px;
 }
+/* icon  */
+.icon::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 5px;
+}
+.icon.user::before{
+    content: "\f007";
+}
+.icon.folder::before{
+    content: "\f07b";
+}
+.icon.pencil::before{
+    content: "\f303";
+}
+.icon.check::before{
+    content: "\f00c";
+    color: #0061ff;
+}
 
 
 
@@ -129,21 +148,7 @@ nav .col li{
 .frontpage .container{
     padding-top: 50px;
 }
-/* icon  */
-.icon::before{
-    font-family: " Font Awesome 5 Free";
-    font-weight: 900;
-    margin-right: 4px;
-}
-.icon.user::before{
-    content: "\f007";
-}
-
 /* subscription */
-
-
-
-
 .title-subscription{
     font-size:40px;
     font-weight: 700;
@@ -153,8 +158,8 @@ nav .col li{
 }
 .collum-subscription .col{
     border: 1px solid gray;
-    height: 1000px;
-    background-color: tomato;
+    height: 800px;
+ 
     margin-top: 50px;
 }
 .collum-subscription .central-col{
@@ -162,8 +167,24 @@ nav .col li{
     margin-right: 20px;
 }
 .collum-subscription .col .header-col{
-    border: 1px solid gray;
+    border-bottom: 1px solid gray;
     padding: 10px;
     text-align: center;
-
+}
+.collum-subscription .main-collum{
+    padding: 40px 20px;
+}
+.subscription .collum-subscription li{
+    padding-left: 10px;
+    text-indent: -1.5em;
+    margin: 20px;
+    font-size: 0.8em;
+}
+.subscription-info .btn-col-info{
+   margin-top: 80px;
+   margin-bottom: 40px;
+}
+.hr-coll{
+    margin: 30px 180px 30px 0px;
+    border-color:gray;
 }
