@@ -15,7 +15,14 @@ body{
     max-width: 1200px;
     margin: auto;
 }
-.btn{
+.container-small{
+    max-width: 1000px;
+    margin: auto;
+}
+li{
+    list-style: none;
+}
+.btn {
     text-decoration: none;  
     padding: 8px 20px;
 }
@@ -31,9 +38,8 @@ body{
     content: "";
     clear: both;
 }
-.float-left{
+.col{
     float: left;
-    /* line-height: 80px; */
 
 }
 .w-20 {
@@ -41,6 +47,9 @@ body{
 }
 .w-30 {
     width: 30%;
+}
+.w-33 {
+    width: calc(100% - 33%);
 }
 .w-50 {
     width: 50%;
@@ -67,6 +76,7 @@ body{
 
 
 
+
 /* ------- */
 
 
@@ -78,14 +88,25 @@ nav{
 .logo{
     vertical-align: middle;
 }
+header{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: white;
+}
+nav .col li{
+    display: inline;
+}
 
 /* main  */
-
+.main-frontpage{
+    margin-top: 80px;
+}
 
 .frontpage.color{
     background-color: #b4d0e7;
     width: 100%;
-    height: 650px;
+    height: 720px;
 }
 .main-frontpage .col-dx img{
     width: 100%;
