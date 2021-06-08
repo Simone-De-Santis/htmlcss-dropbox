@@ -41,6 +41,7 @@ li{
 }
 .col{
     float: left;
+    
 
 }
 .w-20 {
@@ -71,6 +72,9 @@ li{
 .aline-text-right{
     text-align: right;
 }
+.aline-text-center{
+    text-align: center;
+}
 .line-height{
     line-height: 80px;
 }
@@ -100,7 +104,11 @@ h2{
     content: "\f00c";
     color: #0061ff;
 }
-
+.icon.building::before{
+    content: "\f1ad";
+    color: gray;
+    
+}
 
 
 
@@ -163,8 +171,8 @@ nav .col li{
     margin-top: 50px;
 }
 .collum-subscription .central-col{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 .collum-subscription .col .header-col{
     border-bottom: 1px solid gray;
@@ -187,4 +195,30 @@ nav .col li{
 .hr-coll{
     margin: 30px 180px 30px 0px;
     border-color:gray;
+}
+
+.subscription .contact-team{
+    border: 1px solid gray;
+    margin-top: 70px;
+}
+.subscription .contact-team .header-cotact-team{
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 5px;
+}
+.contact-team .main-contact-team .w-30 p{
+    margin-top: 15px;
+
+}
+.contact-team .main-contact-team .w-30 .btn{
+    padding: 5px 30px;
+}
+.contact-team .main-contact-team .col{
+    padding: 32px 0px 5px 20px;
+
+}
+.contact-team .main-contact-team .w-70 p{
+    margin-top: 61px;
+    font-size: 13px;
+
 }
