@@ -18,6 +18,7 @@ body{
 .container-small{
     max-width: 1000px;
     margin: auto;
+    margin-top: 100px;
 }
 li{
     list-style: none;
@@ -49,8 +50,9 @@ li{
     width: 30%;
 }
 .w-33 {
-    width: calc(100% - 33%);
+    width: calc(100% / 3 - 20px);
 }
+
 .w-50 {
     width: 50%;
 }
@@ -72,7 +74,13 @@ li{
 .line-height{
     line-height: 80px;
 }
+.inline{
+    display: inline-block;
+}
 
+h2{
+    margin-bottom: 30px;
+}
 
 
 
@@ -120,4 +128,42 @@ nav .col li{
 }
 .frontpage .container{
     padding-top: 50px;
+}
+/* icon  */
+.icon::before{
+    font-family: " Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 4px;
+}
+.icon.user::before{
+    content: "\f007";
+}
+
+/* subscription */
+
+
+
+
+.title-subscription{
+    font-size:40px;
+    font-weight: 700;
+}
+.subscription{
+    padding-top: 100px;
+}
+.collum-subscription .col{
+    border: 1px solid gray;
+    height: 1000px;
+    background-color: tomato;
+    margin-top: 50px;
+}
+.collum-subscription .central-col{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.collum-subscription .col .header-col{
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+
 }
