@@ -23,6 +23,12 @@ body{
 li{
     list-style: none;
 }
+.p-r{
+    position: relative;
+}
+.p-ab{
+    position: absolute;
+}
 .btn {
     text-decoration: none;  
     padding: 8px 20px;
@@ -114,6 +120,14 @@ h2{
     content: "\f1ad";
     color: gray;
 }
+
+.icon-arrow-down::before{
+    content: "\f063";
+    font-size: 30px;
+    line-height: 100px;
+   
+    
+}
 /* colori  */
 .bg-green{
     background-color: #a2d39b;
@@ -188,6 +202,12 @@ nav .col li{
 .title-frontpage{
     font-size:70px;
     font-weight: 800;
+    margin-bottom: 30px ;
+}
+.article-frontapage{
+    font-size:18px;
+    font-weight: 400;
+
 }
 .frontpage .container{
     padding-top: 50px;
@@ -350,10 +370,11 @@ footer{
 .container-footer .row-list .col{
     padding: 0px 90px;
 }
-#firstcol{
+
+.container-footer .row-list .col:first-child {
     padding: 0 90px 0 0;
-    
 }
+
 .container-footer .title-list-footer{
     margin-bottom: 15px;
     font-size: 25px;    
