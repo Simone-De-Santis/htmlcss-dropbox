@@ -34,6 +34,7 @@ li{
 }
 .btn-white{
     border: 1px solid gray;
+    background-color: white;
 }
 .clearfix::after{
     display: table;
@@ -113,6 +114,37 @@ h2{
     content: "\f1ad";
     color: gray;
 }
+/* colori  */
+.bg-green{
+    background-color: #a2d39b;
+}
+.bg-redblk{
+    background-color: #61082b;
+}
+.bg-lightblue{
+    background-color: #0093ce;
+}
+.bg-orangered{
+    background-color: #ff1c1c;
+}
+.bg-red{
+    background-color: #d5001f;
+}
+.bg-pastelblue{
+    background-color: #b4d0e7;
+}
+.bg-blue{
+    background-color: #0d2481;
+}
+.bg-yellow{
+    background-color: #ffd830;
+}
+.bg-greay{
+    background-color: #f5f5f5;
+}
+
+
+
 
 
 
@@ -192,8 +224,9 @@ nav .col li{
    margin-bottom: 40px;
 }
 .hr-coll{
-    margin: 30px 180px 30px 0px;
-    border-color:gray;
+    margin: 30px 0px;
+    border-color:#d0d0d3;
+    width: 80px;
 }
 
 .subscription .contact-team{
@@ -205,6 +238,7 @@ nav .col li{
     text-align: center;
     padding: 5px;
 }
+/* da modificare */
 .contact-team .main-contact-team .w-30 p{
     margin-top: 15px;
 
@@ -246,4 +280,67 @@ nav .col li{
 .card-information .col p{
     margin-top: 30px;
     margin-bottom: 60px;
+}
+/* team  */
+.team-container{
+    width: 100%;
+    height: calc(100vw /3);
+}
+.w-team{
+    height:100%;
+    width: calc(100% / 3);    
+} 
+.card-team{
+    height: 50%;
+    width: 50%;
+    border: 1px solid black;
+    position: relative;
+}
+.team-container .card-team img{
+    width: 50%;
+    filter: invert(1 );
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.team-container {
+    overflow: hidden;
+}
+.team-container .detail-team{
+    padding: 80px 40px; 
+}
+.detail-team .logo-detail-team img{
+    width: 255px;
+
+}
+.detail-team .comment-team .comment-autor{
+    line-height: 8em;
+
+}
+
+/* busines  */
+.container-busines-test{
+    height: 500px;
+    background-color:#b4d0e7 ;
+}
+.container-busines-test >div{
+    padding: 200px;
+    font-size: 1.5em;
+}
+
+/* faq */
+
+.faq li{
+    line-height: 4em;
+}
+
+/* footer  */
+.container-footer{
+    background-color: black;
+    color: white;
+}
+
+.container-footer .title-list-footer{
+    
 }
