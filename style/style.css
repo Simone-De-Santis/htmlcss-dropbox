@@ -344,9 +344,12 @@ footer{
     padding: 50px 100px;
 }
 .container-footer .row-list .col{
-    padding: 0px 80px;
+    padding: 0px 90px;
 }
-
+#firstcol{
+    padding: 0 90px 0 0;
+    
+}
 .container-footer .title-list-footer{
     margin-bottom: 15px;
     font-size: 25px;    
