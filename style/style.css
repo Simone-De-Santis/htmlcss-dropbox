@@ -336,11 +336,20 @@ nav .col li{
 }
 
 /* footer  */
-.container-footer{
+footer{
     background-color: black;
     color: white;
 }
+.container-footer {
+    padding: 50px 100px;
+}
+.container-footer .row-list .col{
+    padding: 0px 80px;
+}
 
 .container-footer .title-list-footer{
-    
+    margin-bottom: 15px;
+    font-size: 25px;    
+    font-weight:bold;
+
 }
