@@ -47,6 +47,10 @@ li{
     content: "";
     clear: both;
 }
+.buy-now{
+    color: #0061ff;
+
+}
 img{
     width: 100%;
 }
@@ -101,7 +105,7 @@ h2{
 .icon::before{
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    margin-right: 5px;
+    
 }
 .icon.user::before{
     content: "\f007";
@@ -123,11 +127,14 @@ h2{
 
 .icon-arrow-down::before{
     content: "\f063";
+}
+.arrow-style{
+    text-decoration: none;
+    color: black;
     font-size: 30px;
     line-height: 100px;
-   
-    
 }
+
 /* colori  */
 .bg-green{
     background-color: #a2d39b;
@@ -209,6 +216,7 @@ nav .col li{
     font-weight: 400;
 
 }
+
 .frontpage .container{
     padding-top: 50px;
 }
@@ -272,7 +280,7 @@ nav .col li{
 
 }
 .contact-team .main-contact-team .w-70 p{
-    margin-top: 61px;
+    margin: 30px 0px 15px;
     font-size: 13px;
 
 }
@@ -293,6 +301,7 @@ nav .col li{
 .information .col.w-40 p{
     margin-bottom: 50px;
     font-size: 0.9em;
+    line-height: 2em;
 }
 /* card information */
 .card-information .col h3{
